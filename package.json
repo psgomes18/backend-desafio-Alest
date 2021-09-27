@@ -1,0 +1,26 @@
+{
+  "name": "desafio-alest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "dev": "tsnd --respawn --inspect -- index.ts"
+  },
+  "author": "Paulo Sergio",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.1",
+    "firebase-functions": "^3.15.7",
+    "firebase-tools": "^9.18.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
